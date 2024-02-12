@@ -7,6 +7,11 @@
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
   },
+// Dodawanie skryptów do package.json
+// W pliku package.json projektu dodano skrypty (start i build), które umożliwią łatwe budowanie i uruchamianie projektu z Parcel. Zakładając, że plikiem wejściowym jest src/index.html.
+// Aby uruchomić projekt w trybie deweloperskim (z automatycznym odświeżaniem), użyj w Git Bash: npm run start; Aby zbudować projekt do produkcji, użyj: npm run build
+// Parcel automatycznie zoptymalizuje pliki dla produkcji podczas budowania.
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DorotaOr/goit-js-hw-09.git"
